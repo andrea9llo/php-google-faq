@@ -1,0 +1,27 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'Google Sans',sans-serif;
+}
+
+.container{
+  width: 65%;
+  margin: auto;
+  padding-bottom: 30px;
+}
+
+h2{
+  color: #3c4043;
+  font-size: 22px;
+  padding: 64px 0 0 0;
+  margin-bottom: 18px;
+}
+p{
+  color: rgba(0, 0, 0, 0.8);
+  letter-spacing: .2px;
+  line-height: 24px;
+}

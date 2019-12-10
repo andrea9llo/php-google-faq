@@ -3,6 +3,8 @@
   <head>
     <meta charset="utf-8">
     <title>Google faq</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
 
     <?php
 
@@ -18,7 +20,7 @@
 
         foreach ($faqs as  $faq) {
           ?>
-           <h1><?php echo $faq["question"] ?></h1>
+           <h2><?php echo $faq["question"] ?></h2>
            <p><?php echo $faq["answer"] ?></p>
           <?php
         }
